@@ -7,12 +7,12 @@
   3. 위의 docker-compose.yml 파일을 받아 위치한 파일에서 docker-compose up -d 명령어를 입력합니다.
   4. docker ps로 현재 실행중인 atataka/node_api의 ID를 찾고 docker inspect로 아이피를 찾습니다.
   5. postman등 테스트 프로그램에 http://[아이피]/3000/[찾고자 하는 정보]로 조회 및 삭제가 가능합니다.   
-    * GET (전체 조회 또는 부분 조회)
+  * GET (전체 조회 또는 부분 조회)
       - product 또는 produc/[제품이름]
       - company 또는 company/[회사이름]
       - buyer 또는 buyer/[구매자이름]
-      - buyinfo 또는 buyinfo/[구매자이름]
-    * DELETE (전체 삭제 또는 부분 삭제)
+      - buyinfo 또는 buyinfo/[구매자이름]   
+  * DELETE (전체 삭제 또는 부분 삭제)
       - product 또는 produc/[제품이름]
       - company 또는 company/[회사이름]
       - buyer 또는 buyer/[구매자이름]
@@ -35,3 +35,4 @@
   - Node.js(Docker의 이미지)
  
 ## 개발환경 구축 방법
+* API서버 개발 및 DB구축 환경
