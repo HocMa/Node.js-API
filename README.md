@@ -19,6 +19,18 @@
 |GET|http://172.18.0.5:3000/product/:itemName|itemName으로 Product 조회
 |DELETE|http://172.18.0.5:3000/product|모든 Product 삭제
 |DELETE|http://172.18.0.5:3000/product/:itemName|itemName으로 Product 삭제
+|GET|http://172.18.0.5:3000/company|모든 Company 조회
+|GET|http://172.18.0.5:3000/company/:company|company로 Company 조회
+|DELETE|http://172.18.0.5:3000/company|모든 Company 삭제
+|DELETE|http://172.18.0.5:3000/company/:company|company로 Company 삭제
+|GET|http://172.18.0.5:3000/buyer|모든 Buyer 조회
+|GET|http://172.18.0.5:3000/buyer/:name|name으로 Buyer 조회
+|DELETE|http://172.18.0.5:3000/buyer|모든 Buyer 삭제
+|DELETE|http://172.18.0.5:3000/buyer/:name|name으로 Buyer 삭제
+|GET|http://172.18.0.5:3000/buyinfo|모든 BuyInfo 조회
+|GET|http://172.18.0.5:3000/buyinfo/:buyer|buyer로 BuyInfo 조회
+|DELETE|http://172.18.0.5:3000/buyinfo|모든 BuyInfo 삭제
+|DELETE|http://172.18.0.5:3000/buyinfo/:buyer|buyer로 BuyInfo 삭제
 - product는 상품정보이며, compay는 회사, buyer은 구매자, buyinfo는 구매정보입니다.
 - ex) GET | http://172.18.0.5:3000/product/비비드 크림 3종 세트
 
