@@ -20,9 +20,9 @@
 |DELETE|http://172.18.0.5:3000/product|모든 Product 삭제
 |DELETE|http://172.18.0.5:3000/product/:itemName|itemName으로 Product 삭제
 |GET|http://172.18.0.5:3000/company|모든 Company 조회
-|GET|http://172.18.0.5:3000/company/:company|company로 Company 조회
+|GET|http://172.18.0.5:3000/company/:companyName|companyName로 Company 조회
 |DELETE|http://172.18.0.5:3000/company|모든 Company 삭제
-|DELETE|http://172.18.0.5:3000/company/:company|company로 Company 삭제
+|DELETE|http://172.18.0.5:3000/company/:companyName|companyName로 Company 삭제
 |GET|http://172.18.0.5:3000/buyer|모든 Buyer 조회
 |GET|http://172.18.0.5:3000/buyer/:name|name으로 Buyer 조회
 |DELETE|http://172.18.0.5:3000/buyer|모든 Buyer 삭제
